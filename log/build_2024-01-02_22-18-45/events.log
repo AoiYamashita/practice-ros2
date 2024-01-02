@@ -1,0 +1,192 @@
+[0.000000] (-) TimerEvent: {}
+[0.003474] (mypkg) JobQueued: {'identifier': 'mypkg', 'dependencies': OrderedDict()}
+[0.005052] (person_msgs) JobQueued: {'identifier': 'person_msgs', 'dependencies': OrderedDict()}
+[0.005885] (mypkg) JobStarted: {'identifier': 'mypkg'}
+[0.098334] (-) TimerEvent: {}
+[0.200309] (-) TimerEvent: {}
+[0.301569] (-) TimerEvent: {}
+[0.402844] (-) TimerEvent: {}
+[0.504358] (-) TimerEvent: {}
+[0.605859] (-) TimerEvent: {}
+[0.707330] (-) TimerEvent: {}
+[0.810416] (-) TimerEvent: {}
+[0.837363] (person_msgs) JobStarted: {'identifier': 'person_msgs'}
+[0.910914] (-) TimerEvent: {}
+[1.012486] (-) TimerEvent: {}
+[1.113817] (-) TimerEvent: {}
+[1.215157] (-) TimerEvent: {}
+[1.317812] (-) TimerEvent: {}
+[1.420363] (-) TimerEvent: {}
+[1.521729] (-) TimerEvent: {}
+[1.623100] (-) TimerEvent: {}
+[1.724406] (-) TimerEvent: {}
+[1.825588] (-) TimerEvent: {}
+[1.926700] (-) TimerEvent: {}
+[2.027867] (-) TimerEvent: {}
+[2.129106] (-) TimerEvent: {}
+[2.230232] (-) TimerEvent: {}
+[2.331402] (-) TimerEvent: {}
+[2.432535] (-) TimerEvent: {}
+[2.533716] (-) TimerEvent: {}
+[2.634779] (-) TimerEvent: {}
+[2.735923] (-) TimerEvent: {}
+[2.837076] (-) TimerEvent: {}
+[2.938207] (-) TimerEvent: {}
+[3.039326] (-) TimerEvent: {}
+[3.140514] (-) TimerEvent: {}
+[3.241704] (-) TimerEvent: {}
+[3.342825] (-) TimerEvent: {}
+[3.443933] (-) TimerEvent: {}
+[3.545138] (-) TimerEvent: {}
+[3.646282] (-) TimerEvent: {}
+[3.747420] (-) TimerEvent: {}
+[3.848705] (-) TimerEvent: {}
+[3.950109] (-) TimerEvent: {}
+[4.051541] (-) TimerEvent: {}
+[4.153063] (-) TimerEvent: {}
+[4.255666] (-) TimerEvent: {}
+[4.357222] (-) TimerEvent: {}
+[4.458786] (-) TimerEvent: {}
+[4.560314] (-) TimerEvent: {}
+[4.661706] (-) TimerEvent: {}
+[4.671021] (person_msgs) JobProgress: {'identifier': 'person_msgs', 'progress': 'cmake'}
+[4.677083] (person_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/yamashita/ros2_ws/src/person_msgs', '-DCMAKE_INSTALL_PREFIX=/home/yamashita/ros2_ws/install/person_msgs'], 'cwd': '/home/yamashita/ros2_ws/build/person_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yamashita'), ('SSH_CLIENT', '192.168.1.7 59364 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/yamashita'), ('OLDPWD', '/home/yamashita/ros2_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/yamashita/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yamashita'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/yamashita/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/yamashita/ros2_ws/install/mypkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/yamashita/ros2_ws/build/person_msgs'), ('SSH_CONNECTION', '192.168.1.7 59364 192.168.1.15 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yamashita/ros2_ws/install/mypkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1')]), 'shell': False}
+[4.762003] (-) TimerEvent: {}
+[4.786199] (person_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[4.862227] (-) TimerEvent: {}
+[4.963455] (-) TimerEvent: {}
+[5.064801] (-) TimerEvent: {}
+[5.166170] (-) TimerEvent: {}
+[5.267529] (-) TimerEvent: {}
+[5.369317] (-) TimerEvent: {}
+[5.470689] (-) TimerEvent: {}
+[5.572172] (-) TimerEvent: {}
+[5.673440] (-) TimerEvent: {}
+[5.774752] (-) TimerEvent: {}
+[5.876068] (-) TimerEvent: {}
+[5.977572] (-) TimerEvent: {}
+[6.078919] (-) TimerEvent: {}
+[6.180327] (-) TimerEvent: {}
+[6.221430] (person_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[6.237329] (person_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.264159] (person_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[6.280576] (-) TimerEvent: {}
+[6.382043] (-) TimerEvent: {}
+[6.483328] (-) TimerEvent: {}
+[6.590588] (-) TimerEvent: {}
+[6.613554] (person_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.690866] (-) TimerEvent: {}
+[6.792618] (-) TimerEvent: {}
+[6.894439] (-) TimerEvent: {}
+[6.995710] (-) TimerEvent: {}
+[7.098758] (-) TimerEvent: {}
+[7.201692] (-) TimerEvent: {}
+[7.304886] (-) TimerEvent: {}
+[7.407909] (-) TimerEvent: {}
+[7.511066] (-) TimerEvent: {}
+[7.613819] (-) TimerEvent: {}
+[7.716134] (-) TimerEvent: {}
+[7.818706] (-) TimerEvent: {}
+[7.920953] (-) TimerEvent: {}
+[8.023252] (-) TimerEvent: {}
+[8.125786] (-) TimerEvent: {}
+[8.227050] (-) TimerEvent: {}
+[8.328606] (-) TimerEvent: {}
+[8.430273] (-) TimerEvent: {}
+[8.531626] (-) TimerEvent: {}
+[8.534004] (person_msgs) StderrLine: {'line': b"Error parsing '/home/yamashita/ros2_ws/src/person_msgs/package.xml':\n"}
+[8.621821] (mypkg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/mypkg', 'build', '--build-base', '/home/yamashita/ros2_ws/build/mypkg/build', 'install', '--record', '/home/yamashita/ros2_ws/build/mypkg/install.log', '--single-version-externally-managed'], 'cwd': '/home/yamashita/ros2_ws/src/mypkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'yamashita', 'SSH_CLIENT': '192.168.1.7 59364 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/yamashita', 'OLDPWD': '/home/yamashita/ros2_ws/src', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/yamashita/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'yamashita', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/yamashita/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/yamashita/ros2_ws/install/mypkg:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/yamashita/ros2_ws/build/mypkg', 'SSH_CONNECTION': '192.168.1.7 59364 192.168.1.15 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/yamashita/ros2_ws/build/mypkg/prefix_override:/home/yamashita/ros2_ws/install/mypkg/lib/python3.10/site-packages:/home/yamashita/ros2_ws/install/mypkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[8.640901] (-) TimerEvent: {}
+[8.742528] (-) TimerEvent: {}
+[8.843853] (-) TimerEvent: {}
+[8.936151] (person_msgs) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[8.938166] (person_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 610, in parse_package_string\n'}
+[8.939230] (person_msgs) StderrLine: {'line': b'    root = dom.parseString(data)\n'}
+[8.941169] (person_msgs) StderrLine: {'line': b'  File "/usr/lib/python3.10/xml/dom/minidom.py", line 2000, in parseString\n'}
+[8.944516] (-) TimerEvent: {}
+[8.946649] (person_msgs) StderrLine: {'line': b'    return expatbuilder.parseString(string)\n'}
+[8.948323] (person_msgs) StderrLine: {'line': b'  File "/usr/lib/python3.10/xml/dom/expatbuilder.py", line 925, in parseString\n'}
+[8.949703] (person_msgs) StderrLine: {'line': b'    return builder.parseString(string)\n'}
+[8.950747] (person_msgs) StderrLine: {'line': b'  File "/usr/lib/python3.10/xml/dom/expatbuilder.py", line 223, in parseString\n'}
+[8.951737] (person_msgs) StderrLine: {'line': b'    parser.Parse(string, True)\n'}
+[8.952752] (person_msgs) StderrLine: {'line': b'xml.parsers.expat.ExpatError: mismatched tag: line 22, column 2\n'}
+[8.953988] (person_msgs) StderrLine: {'line': b'\n'}
+[8.955579] (person_msgs) StderrLine: {'line': b'During handling of the above exception, another exception occurred:\n'}
+[8.956586] (person_msgs) StderrLine: {'line': b'\n'}
+[8.957838] (person_msgs) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[8.958929] (person_msgs) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>\n'}
+[8.960042] (person_msgs) StderrLine: {'line': b'    main()\n'}
+[8.961243] (person_msgs) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main\n'}
+[8.962704] (person_msgs) StderrLine: {'line': b'    raise e\n'}
+[8.963846] (person_msgs) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main\n'}
+[8.964976] (person_msgs) StderrLine: {'line': b'    package = parse_package_string(\n'}
+[8.966476] (person_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 612, in parse_package_string\n'}
+[8.967675] (person_msgs) StderrLine: {'line': b"    raise InvalidPackage('The manifest contains invalid XML:\\n%s' % ex, filename)\n"}
+[8.968766] (person_msgs) StderrLine: {'line': b"catkin_pkg.package.InvalidPackage: Error(s) in package '/home/yamashita/ros2_ws/src/person_msgs/package.xml':\n"}
+[8.970200] (person_msgs) StderrLine: {'line': b'The manifest contains invalid XML:\n'}
+[8.971384] (person_msgs) StderrLine: {'line': b'mismatched tag: line 22, column 2\n'}
+[9.044837] (-) TimerEvent: {}
+[9.131089] (person_msgs) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):\n'}
+[9.132510] (person_msgs) StderrLine: {'line': b'  execute_process(/usr/bin/python3.10\n'}
+[9.134109] (person_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py\n'}
+[9.135133] (person_msgs) StderrLine: {'line': b'  /home/yamashita/ros2_ws/src/person_msgs/package.xml\n'}
+[9.136196] (person_msgs) StderrLine: {'line': b'  /home/yamashita/ros2_ws/build/person_msgs/ament_cmake_core/package.cmake)\n'}
+[9.137279] (person_msgs) StderrLine: {'line': b'  returned error code 1\n'}
+[9.138272] (person_msgs) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[9.139235] (person_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)\n'}
+[9.140193] (person_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:226 (ament_package_xml)\n'}
+[9.141194] (person_msgs) StderrLine: {'line': b'  CMakeLists.txt:13 (rosidl_generate_interfaces)\n'}
+[9.142194] (person_msgs) StderrLine: {'line': b'\n'}
+[9.143064] (person_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[9.144049] (person_msgs) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[9.145480] (-) TimerEvent: {}
+[9.146456] (person_msgs) StdoutLine: {'line': b'See also "/home/yamashita/ros2_ws/build/person_msgs/CMakeFiles/CMakeOutput.log".\n'}
+[9.165430] (person_msgs) CommandEnded: {'returncode': 1}
+[9.170536] (person_msgs) JobEnded: {'identifier': 'person_msgs', 'rc': 1}
+[9.245738] (-) TimerEvent: {}
+[9.346783] (-) TimerEvent: {}
+[9.447954] (-) TimerEvent: {}
+[9.548989] (-) TimerEvent: {}
+[9.650177] (-) TimerEvent: {}
+[9.751219] (-) TimerEvent: {}
+[9.852330] (-) TimerEvent: {}
+[9.953465] (-) TimerEvent: {}
+[10.054580] (-) TimerEvent: {}
+[10.155645] (-) TimerEvent: {}
+[10.256718] (-) TimerEvent: {}
+[10.357893] (-) TimerEvent: {}
+[10.458963] (-) TimerEvent: {}
+[10.560111] (-) TimerEvent: {}
+[10.661229] (-) TimerEvent: {}
+[10.762322] (-) TimerEvent: {}
+[10.863402] (-) TimerEvent: {}
+[10.964508] (-) TimerEvent: {}
+[11.047659] (mypkg) StdoutLine: {'line': b'running egg_info\n'}
+[11.052849] (mypkg) StdoutLine: {'line': b'writing ../../build/mypkg/mypkg.egg-info/PKG-INFO\n'}
+[11.054815] (mypkg) StdoutLine: {'line': b'writing dependency_links to ../../build/mypkg/mypkg.egg-info/dependency_links.txt\n'}
+[11.056763] (mypkg) StdoutLine: {'line': b'writing entry points to ../../build/mypkg/mypkg.egg-info/entry_points.txt\n'}
+[11.058392] (mypkg) StdoutLine: {'line': b'writing requirements to ../../build/mypkg/mypkg.egg-info/requires.txt\n'}
+[11.059719] (mypkg) StdoutLine: {'line': b'writing top-level names to ../../build/mypkg/mypkg.egg-info/top_level.txt\n'}
+[11.064746] (-) TimerEvent: {}
+[11.076082] (mypkg) StdoutLine: {'line': b"reading manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'\n"}
+[11.083537] (mypkg) StdoutLine: {'line': b"writing manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'\n"}
+[11.084800] (mypkg) StdoutLine: {'line': b'running build\n'}
+[11.086261] (mypkg) StdoutLine: {'line': b'running build_py\n'}
+[11.088504] (mypkg) StdoutLine: {'line': b'running install\n'}
+[11.089903] (mypkg) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[11.090928] (mypkg) StderrLine: {'line': b'  warnings.warn(\n'}
+[11.092096] (mypkg) StdoutLine: {'line': b'running install_lib\n'}
+[11.102151] (mypkg) StdoutLine: {'line': b'running install_data\n'}
+[11.106973] (mypkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[11.119907] (mypkg) StdoutLine: {'line': b"removing '/home/yamashita/ros2_ws/install/mypkg/lib/python3.10/site-packages/mypkg-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[11.122970] (mypkg) StdoutLine: {'line': b'Copying ../../build/mypkg/mypkg.egg-info to /home/yamashita/ros2_ws/install/mypkg/lib/python3.10/site-packages/mypkg-0.0.0-py3.10.egg-info\n'}
+[11.132699] (mypkg) StdoutLine: {'line': b'running install_scripts\n'}
+[11.164994] (-) TimerEvent: {}
+[11.266192] (-) TimerEvent: {}
+[11.291034] (mypkg) StdoutLine: {'line': b'Installing listener script to /home/yamashita/ros2_ws/install/mypkg/lib/mypkg\n'}
+[11.292636] (mypkg) StdoutLine: {'line': b'Installing talker script to /home/yamashita/ros2_ws/install/mypkg/lib/mypkg\n'}
+[11.296076] (mypkg) StdoutLine: {'line': b"writing list of installed files to '/home/yamashita/ros2_ws/build/mypkg/install.log'\n"}
+[11.366561] (-) TimerEvent: {}
+[11.467871] (-) TimerEvent: {}
+[11.526162] (mypkg) JobEnded: {'identifier': 'mypkg', 'rc': 'SIGINT'}
+[11.537421] (-) EventReactorShutdown: {}

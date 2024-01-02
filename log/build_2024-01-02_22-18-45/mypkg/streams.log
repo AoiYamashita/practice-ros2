@@ -1,0 +1,23 @@
+[8.633s] Invoking command in '/home/yamashita/ros2_ws/src/mypkg': PYTHONPATH=/home/yamashita/ros2_ws/build/mypkg/prefix_override:/home/yamashita/ros2_ws/install/mypkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mypkg build --build-base /home/yamashita/ros2_ws/build/mypkg/build install --record /home/yamashita/ros2_ws/build/mypkg/install.log --single-version-externally-managed
+[11.042s] running egg_info
+[11.048s] writing ../../build/mypkg/mypkg.egg-info/PKG-INFO
+[11.049s] writing dependency_links to ../../build/mypkg/mypkg.egg-info/dependency_links.txt
+[11.051s] writing entry points to ../../build/mypkg/mypkg.egg-info/entry_points.txt
+[11.053s] writing requirements to ../../build/mypkg/mypkg.egg-info/requires.txt
+[11.054s] writing top-level names to ../../build/mypkg/mypkg.egg-info/top_level.txt
+[11.071s] reading manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'
+[11.078s] writing manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'
+[11.080s] running build
+[11.081s] running build_py
+[11.083s] running install
+[11.085s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[11.085s]   warnings.warn(
+[11.087s] running install_lib
+[11.097s] running install_data
+[11.101s] running install_egg_info
+[11.114s] removing '/home/yamashita/ros2_ws/install/mypkg/lib/python3.10/site-packages/mypkg-0.0.0-py3.10.egg-info' (and everything under it)
+[11.118s] Copying ../../build/mypkg/mypkg.egg-info to /home/yamashita/ros2_ws/install/mypkg/lib/python3.10/site-packages/mypkg-0.0.0-py3.10.egg-info
+[11.127s] running install_scripts
+[11.286s] Installing listener script to /home/yamashita/ros2_ws/install/mypkg/lib/mypkg
+[11.287s] Installing talker script to /home/yamashita/ros2_ws/install/mypkg/lib/mypkg
+[11.291s] writing list of installed files to '/home/yamashita/ros2_ws/build/mypkg/install.log'

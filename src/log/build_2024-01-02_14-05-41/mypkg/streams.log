@@ -1,0 +1,23 @@
+[7.332s] Invoking command in '/home/yamashita/ros2_ws/src/mypkg': PYTHONPATH=/home/yamashita/ros2_ws/src/build/mypkg/prefix_override:/home/yamashita/ros2_ws/src/install/mypkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/mypkg build --build-base /home/yamashita/ros2_ws/src/build/mypkg/build install --record /home/yamashita/ros2_ws/src/build/mypkg/install.log --single-version-externally-managed
+[9.660s] running egg_info
+[9.666s] writing ../build/mypkg/mypkg.egg-info/PKG-INFO
+[9.668s] writing dependency_links to ../build/mypkg/mypkg.egg-info/dependency_links.txt
+[9.670s] writing entry points to ../build/mypkg/mypkg.egg-info/entry_points.txt
+[9.672s] writing requirements to ../build/mypkg/mypkg.egg-info/requires.txt
+[9.673s] writing top-level names to ../build/mypkg/mypkg.egg-info/top_level.txt
+[9.687s] reading manifest file '../build/mypkg/mypkg.egg-info/SOURCES.txt'
+[9.694s] writing manifest file '../build/mypkg/mypkg.egg-info/SOURCES.txt'
+[9.696s] running build
+[9.697s] running build_py
+[9.699s] running install
+[9.700s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[9.701s]   warnings.warn(
+[9.703s] running install_lib
+[9.712s] running install_data
+[9.717s] copying package.xml -> /home/yamashita/ros2_ws/src/install/mypkg/share/mypkg
+[9.718s] running install_egg_info
+[9.731s] removing '/home/yamashita/ros2_ws/src/install/mypkg/lib/python3.10/site-packages/mypkg-0.0.0-py3.10.egg-info' (and everything under it)
+[9.734s] Copying ../build/mypkg/mypkg.egg-info to /home/yamashita/ros2_ws/src/install/mypkg/lib/python3.10/site-packages/mypkg-0.0.0-py3.10.egg-info
+[9.744s] running install_scripts
+[9.903s] writing list of installed files to '/home/yamashita/ros2_ws/src/build/mypkg/install.log'
+[10.134s] Invoked command in '/home/yamashita/ros2_ws/src/mypkg' returned '0': PYTHONPATH=/home/yamashita/ros2_ws/src/build/mypkg/prefix_override:/home/yamashita/ros2_ws/src/install/mypkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/mypkg build --build-base /home/yamashita/ros2_ws/src/build/mypkg/build install --record /home/yamashita/ros2_ws/src/build/mypkg/install.log --single-version-externally-managed

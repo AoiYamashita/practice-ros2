@@ -1,0 +1,38 @@
+[7.865s] Invoking command in '/home/yamashita/ros2_ws/src/mypkg': PYTHONPATH=/home/yamashita/ros2_ws/src/build/mypkg/prefix_override:/home/yamashita/ros2_ws/src/install/mypkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/mypkg build --build-base /home/yamashita/ros2_ws/src/build/mypkg/build install --record /home/yamashita/ros2_ws/src/build/mypkg/install.log --single-version-externally-managed
+[10.209s] running egg_info
+[10.214s] creating ../build/mypkg/mypkg.egg-info
+[10.216s] writing ../build/mypkg/mypkg.egg-info/PKG-INFO
+[10.218s] writing dependency_links to ../build/mypkg/mypkg.egg-info/dependency_links.txt
+[10.220s] writing entry points to ../build/mypkg/mypkg.egg-info/entry_points.txt
+[10.221s] writing requirements to ../build/mypkg/mypkg.egg-info/requires.txt
+[10.222s] writing top-level names to ../build/mypkg/mypkg.egg-info/top_level.txt
+[10.224s] writing manifest file '../build/mypkg/mypkg.egg-info/SOURCES.txt'
+[10.237s] reading manifest file '../build/mypkg/mypkg.egg-info/SOURCES.txt'
+[10.242s] writing manifest file '../build/mypkg/mypkg.egg-info/SOURCES.txt'
+[10.244s] running build
+[10.245s] running build_py
+[10.247s] creating /home/yamashita/ros2_ws/src/build/mypkg/build
+[10.247s] creating /home/yamashita/ros2_ws/src/build/mypkg/build/lib
+[10.248s] creating /home/yamashita/ros2_ws/src/build/mypkg/build/lib/mypkg
+[10.250s] copying mypkg/__init__.py -> /home/yamashita/ros2_ws/src/build/mypkg/build/lib/mypkg
+[10.251s] copying mypkg/talker.py -> /home/yamashita/ros2_ws/src/build/mypkg/build/lib/mypkg
+[10.251s] running install
+[10.254s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[10.254s]   warnings.warn(
+[10.256s] running install_lib
+[10.262s] creating /home/yamashita/ros2_ws/src/install/mypkg/lib/python3.10/site-packages/mypkg
+[10.263s] copying /home/yamashita/ros2_ws/src/build/mypkg/build/lib/mypkg/__init__.py -> /home/yamashita/ros2_ws/src/install/mypkg/lib/python3.10/site-packages/mypkg
+[10.264s] copying /home/yamashita/ros2_ws/src/build/mypkg/build/lib/mypkg/talker.py -> /home/yamashita/ros2_ws/src/install/mypkg/lib/python3.10/site-packages/mypkg
+[10.269s] byte-compiling /home/yamashita/ros2_ws/src/install/mypkg/lib/python3.10/site-packages/mypkg/__init__.py to __init__.cpython-310.pyc
+[10.271s] byte-compiling /home/yamashita/ros2_ws/src/install/mypkg/lib/python3.10/site-packages/mypkg/talker.py to talker.cpython-310.pyc
+[10.274s] running install_data
+[10.279s] creating /home/yamashita/ros2_ws/src/install/mypkg/share/ament_index
+[10.280s] creating /home/yamashita/ros2_ws/src/install/mypkg/share/ament_index/resource_index
+[10.281s] creating /home/yamashita/ros2_ws/src/install/mypkg/share/ament_index/resource_index/packages
+[10.282s] copying resource/mypkg -> /home/yamashita/ros2_ws/src/install/mypkg/share/ament_index/resource_index/packages
+[10.283s] copying package.xml -> /home/yamashita/ros2_ws/src/install/mypkg/share/mypkg
+[10.284s] running install_egg_info
+[10.296s] Copying ../build/mypkg/mypkg.egg-info to /home/yamashita/ros2_ws/src/install/mypkg/lib/python3.10/site-packages/mypkg-0.0.0-py3.10.egg-info
+[10.306s] running install_scripts
+[10.466s] writing list of installed files to '/home/yamashita/ros2_ws/src/build/mypkg/install.log'
+[10.697s] Invoked command in '/home/yamashita/ros2_ws/src/mypkg' returned '0': PYTHONPATH=/home/yamashita/ros2_ws/src/build/mypkg/prefix_override:/home/yamashita/ros2_ws/src/install/mypkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/mypkg build --build-base /home/yamashita/ros2_ws/src/build/mypkg/build install --record /home/yamashita/ros2_ws/src/build/mypkg/install.log --single-version-externally-managed

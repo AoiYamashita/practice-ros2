@@ -1,0 +1,4 @@
+Invoking command in '/home/yamashita/ros2_ws/build/person_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yamashita/ros2_ws/install/mypkg:/opt/ros/humble /usr/bin/cmake --build /home/yamashita/ros2_ws/build/person_msgs -- -j4 -l4
+Invoked command in '/home/yamashita/ros2_ws/build/person_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yamashita/ros2_ws/install/mypkg:/opt/ros/humble /usr/bin/cmake --build /home/yamashita/ros2_ws/build/person_msgs -- -j4 -l4
+Invoking command in '/home/yamashita/ros2_ws/build/person_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yamashita/ros2_ws/install/mypkg:/opt/ros/humble /usr/bin/cmake --install /home/yamashita/ros2_ws/build/person_msgs
+Invoked command in '/home/yamashita/ros2_ws/build/person_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yamashita/ros2_ws/install/mypkg:/opt/ros/humble /usr/bin/cmake --install /home/yamashita/ros2_ws/build/person_msgs

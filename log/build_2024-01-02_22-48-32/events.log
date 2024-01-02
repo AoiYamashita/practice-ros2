@@ -1,0 +1,312 @@
+[0.000000] (-) TimerEvent: {}
+[0.003137] (mypkg) JobQueued: {'identifier': 'mypkg', 'dependencies': OrderedDict()}
+[0.003765] (person_msgs) JobQueued: {'identifier': 'person_msgs', 'dependencies': OrderedDict()}
+[0.004130] (mypkg) JobStarted: {'identifier': 'mypkg'}
+[0.097377] (-) TimerEvent: {}
+[0.199160] (-) TimerEvent: {}
+[0.300284] (-) TimerEvent: {}
+[0.402144] (-) TimerEvent: {}
+[0.503742] (-) TimerEvent: {}
+[0.605241] (-) TimerEvent: {}
+[0.706418] (-) TimerEvent: {}
+[0.811392] (-) TimerEvent: {}
+[0.830803] (person_msgs) JobStarted: {'identifier': 'person_msgs'}
+[0.911646] (-) TimerEvent: {}
+[1.013518] (-) TimerEvent: {}
+[1.115654] (-) TimerEvent: {}
+[1.217768] (-) TimerEvent: {}
+[1.319490] (-) TimerEvent: {}
+[1.421082] (-) TimerEvent: {}
+[1.522285] (-) TimerEvent: {}
+[1.623450] (-) TimerEvent: {}
+[1.724593] (-) TimerEvent: {}
+[1.825764] (-) TimerEvent: {}
+[1.927013] (-) TimerEvent: {}
+[2.028190] (-) TimerEvent: {}
+[2.129396] (-) TimerEvent: {}
+[2.230560] (-) TimerEvent: {}
+[2.331669] (-) TimerEvent: {}
+[2.432765] (-) TimerEvent: {}
+[2.533827] (-) TimerEvent: {}
+[2.634954] (-) TimerEvent: {}
+[2.736084] (-) TimerEvent: {}
+[2.837241] (-) TimerEvent: {}
+[2.938279] (-) TimerEvent: {}
+[3.039417] (-) TimerEvent: {}
+[3.140514] (-) TimerEvent: {}
+[3.241595] (-) TimerEvent: {}
+[3.342823] (-) TimerEvent: {}
+[3.443949] (-) TimerEvent: {}
+[3.545094] (-) TimerEvent: {}
+[3.646235] (-) TimerEvent: {}
+[3.747411] (-) TimerEvent: {}
+[3.848579] (-) TimerEvent: {}
+[3.949899] (-) TimerEvent: {}
+[4.051108] (-) TimerEvent: {}
+[4.152977] (-) TimerEvent: {}
+[4.254905] (-) TimerEvent: {}
+[4.357334] (-) TimerEvent: {}
+[4.459367] (-) TimerEvent: {}
+[4.560559] (-) TimerEvent: {}
+[4.662833] (-) TimerEvent: {}
+[4.685016] (person_msgs) JobProgress: {'identifier': 'person_msgs', 'progress': 'cmake'}
+[4.691798] (person_msgs) JobProgress: {'identifier': 'person_msgs', 'progress': 'build'}
+[4.697190] (person_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yamashita/ros2_ws/build/person_msgs', '--', '-j4', '-l4'], 'cwd': '/home/yamashita/ros2_ws/build/person_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yamashita'), ('SSH_CLIENT', '192.168.1.7 59364 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yamashita/ros2_ws/install/person_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/yamashita'), ('OLDPWD', '/home/yamashita/ros2_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/yamashita/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yamashita'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/yamashita/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/yamashita/ros2_ws/install/person_msgs:/home/yamashita/ros2_ws/install/mypkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/yamashita/ros2_ws/build/person_msgs'), ('SSH_CONNECTION', '192.168.1.7 59364 192.168.1.15 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yamashita/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages:/home/yamashita/ros2_ws/install/mypkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/yamashita/ros2_ws/install/person_msgs:/home/yamashita/ros2_ws/install/mypkg:/opt/ros/humble')]), 'shell': False}
+[4.763120] (-) TimerEvent: {}
+[4.864642] (-) TimerEvent: {}
+[4.966212] (-) TimerEvent: {}
+[5.069054] (-) TimerEvent: {}
+[5.108235] (person_msgs) StdoutLine: {'line': b'[  3%] Built target person_msgs__cpp\n'}
+[5.137302] (person_msgs) StdoutLine: {'line': b'[ 12%] Built target person_msgs__rosidl_generator_c\n'}
+[5.169490] (-) TimerEvent: {}
+[5.219120] (person_msgs) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_person_msgs\n'}
+[5.269777] (-) TimerEvent: {}
+[5.351442] (person_msgs) StdoutLine: {'line': b'[ 22%] Built target person_msgs__rosidl_typesupport_cpp\n'}
+[5.370151] (-) TimerEvent: {}
+[5.384660] (person_msgs) StdoutLine: {'line': b'[ 32%] Built target person_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[5.470503] (-) TimerEvent: {}
+[5.487479] (person_msgs) StdoutLine: {'line': b'[ 41%] Built target person_msgs__rosidl_typesupport_introspection_cpp\n'}
+[5.496464] (person_msgs) StdoutLine: {'line': b'[ 51%] Built target person_msgs__rosidl_typesupport_fastrtps_c\n'}
+[5.565976] (person_msgs) StdoutLine: {'line': b'[ 61%] Built target person_msgs__rosidl_typesupport_introspection_c\n'}
+[5.570951] (-) TimerEvent: {}
+[5.574683] (person_msgs) StdoutLine: {'line': b'[ 70%] Built target person_msgs__rosidl_typesupport_c\n'}
+[5.671268] (-) TimerEvent: {}
+[5.746321] (person_msgs) StdoutLine: {'line': b'[ 70%] Built target person_msgs\n'}
+[5.771512] (-) TimerEvent: {}
+[5.872943] (-) TimerEvent: {}
+[5.925145] (person_msgs) StdoutLine: {'line': b'[ 74%] Built target person_msgs__py\n'}
+[5.973521] (-) TimerEvent: {}
+[6.076035] (-) TimerEvent: {}
+[6.124572] (person_msgs) StdoutLine: {'line': b'[ 80%] Built target person_msgs__rosidl_generator_py\n'}
+[6.176360] (-) TimerEvent: {}
+[6.278997] (-) TimerEvent: {}
+[6.381763] (-) TimerEvent: {}
+[6.384927] (person_msgs) StdoutLine: {'line': b'[ 87%] Built target person_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[6.397095] (person_msgs) StdoutLine: {'line': b'[ 93%] Built target person_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[6.460078] (person_msgs) StdoutLine: {'line': b'[100%] Built target person_msgs__rosidl_typesupport_c__pyext\n'}
+[6.482034] (-) TimerEvent: {}
+[6.583468] (-) TimerEvent: {}
+[6.684714] (-) TimerEvent: {}
+[6.785994] (-) TimerEvent: {}
+[6.887411] (-) TimerEvent: {}
+[6.988689] (-) TimerEvent: {}
+[7.089999] (-) TimerEvent: {}
+[7.191392] (-) TimerEvent: {}
+[7.292640] (-) TimerEvent: {}
+[7.393845] (-) TimerEvent: {}
+[7.495185] (-) TimerEvent: {}
+[7.596464] (-) TimerEvent: {}
+[7.697776] (-) TimerEvent: {}
+[7.799123] (-) TimerEvent: {}
+[7.900366] (-) TimerEvent: {}
+[8.001592] (-) TimerEvent: {}
+[8.102953] (-) TimerEvent: {}
+[8.204191] (-) TimerEvent: {}
+[8.305434] (-) TimerEvent: {}
+[8.398093] (person_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[8.405801] (-) TimerEvent: {}
+[8.407682] (person_msgs) StdoutLine: {'line': b'writing person_msgs.egg-info/PKG-INFO\n'}
+[8.409358] (person_msgs) StdoutLine: {'line': b'writing dependency_links to person_msgs.egg-info/dependency_links.txt\n'}
+[8.411144] (person_msgs) StdoutLine: {'line': b'writing top-level names to person_msgs.egg-info/top_level.txt\n'}
+[8.430899] (person_msgs) StdoutLine: {'line': b"reading manifest file 'person_msgs.egg-info/SOURCES.txt'\n"}
+[8.436738] (person_msgs) StdoutLine: {'line': b"writing manifest file 'person_msgs.egg-info/SOURCES.txt'\n"}
+[8.506092] (-) TimerEvent: {}
+[8.607601] (-) TimerEvent: {}
+[8.709168] (-) TimerEvent: {}
+[8.723739] (person_msgs) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_person_msgs_egg\n'}
+[8.806845] (person_msgs) CommandEnded: {'returncode': 0}
+[8.809963] (-) TimerEvent: {}
+[8.901962] (mypkg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/mypkg', 'build', '--build-base', '/home/yamashita/ros2_ws/build/mypkg/build', 'install', '--record', '/home/yamashita/ros2_ws/build/mypkg/install.log', '--single-version-externally-managed'], 'cwd': '/home/yamashita/ros2_ws/src/mypkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'yamashita', 'SSH_CLIENT': '192.168.1.7 59364 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/yamashita/ros2_ws/install/person_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/yamashita', 'OLDPWD': '/home/yamashita/ros2_ws/src', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/yamashita/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'yamashita', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/yamashita/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/yamashita/ros2_ws/install/person_msgs:/home/yamashita/ros2_ws/install/mypkg:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/yamashita/ros2_ws/build/mypkg', 'SSH_CONNECTION': '192.168.1.7 59364 192.168.1.15 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/yamashita/ros2_ws/build/mypkg/prefix_override:/home/yamashita/ros2_ws/install/mypkg/lib/python3.10/site-packages:/home/yamashita/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages:/home/yamashita/ros2_ws/install/mypkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/yamashita/ros2_ws/install/person_msgs'}, 'shell': False}
+[8.911803] (-) TimerEvent: {}
+[9.013015] (-) TimerEvent: {}
+[9.114314] (-) TimerEvent: {}
+[9.216755] (-) TimerEvent: {}
+[9.317926] (-) TimerEvent: {}
+[9.373981] (person_msgs) JobProgress: {'identifier': 'person_msgs', 'progress': 'install'}
+[9.418339] (-) TimerEvent: {}
+[9.437051] (person_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yamashita/ros2_ws/build/person_msgs'], 'cwd': '/home/yamashita/ros2_ws/build/person_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yamashita'), ('SSH_CLIENT', '192.168.1.7 59364 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yamashita/ros2_ws/install/person_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/yamashita'), ('OLDPWD', '/home/yamashita/ros2_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/yamashita/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yamashita'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/yamashita/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/yamashita/ros2_ws/install/person_msgs:/home/yamashita/ros2_ws/install/mypkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/yamashita/ros2_ws/build/person_msgs'), ('SSH_CONNECTION', '192.168.1.7 59364 192.168.1.15 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yamashita/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages:/home/yamashita/ros2_ws/install/mypkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/yamashita/ros2_ws/install/person_msgs:/home/yamashita/ros2_ws/install/mypkg:/opt/ros/humble')]), 'shell': False}
+[9.504055] (person_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.505784] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/share/ament_index/resource_index/rosidl_interfaces/person_msgs\n'}
+[9.507378] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/include/person_msgs/person_msgs\n'}
+[9.508388] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg\n'}
+[9.510090] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg/detail\n'}
+[9.511331] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg/detail/person__struct.h\n'}
+[9.512383] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg/detail/person__functions.h\n'}
+[9.513396] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg/detail/person__functions.c\n'}
+[9.514878] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg/detail/person__type_support.h\n'}
+[9.515943] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg/person.h\n'}
+[9.516843] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[9.517636] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/share/person_msgs/environment/library_path.sh\n'}
+[9.518582] (-) TimerEvent: {}
+[9.520484] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/share/person_msgs/environment/library_path.dsv\n'}
+[9.522077] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/lib/libperson_msgs__rosidl_generator_c.so\n'}
+[9.523164] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/include/person_msgs/person_msgs\n'}
+[9.524913] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg\n'}
+[9.525980] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[9.527742] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg/detail\n'}
+[9.529463] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg/detail/person__rosidl_typesupport_fastrtps_c.h\n'}
+[9.531771] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/lib/libperson_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[9.532719] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/include/person_msgs/person_msgs\n'}
+[9.534502] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg\n'}
+[9.535671] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg/detail\n'}
+[9.536528] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg/detail/person__type_support.c\n'}
+[9.538274] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg/detail/person__rosidl_typesupport_introspection_c.h\n'}
+[9.539545] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[9.541583] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/lib/libperson_msgs__rosidl_typesupport_introspection_c.so\n'}
+[9.544692] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/lib/libperson_msgs__rosidl_typesupport_c.so\n'}
+[9.547363] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/include/person_msgs/person_msgs\n'}
+[9.549298] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg\n'}
+[9.550225] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg/detail\n'}
+[9.551803] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg/detail/person__struct.hpp\n'}
+[9.552722] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg/detail/person__builder.hpp\n'}
+[9.553992] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg/detail/person__traits.hpp\n'}
+[9.557009] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg/person.hpp\n'}
+[9.558427] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/include/person_msgs/person_msgs\n'}
+[9.559778] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg\n'}
+[9.561182] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg/detail\n'}
+[9.562176] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg/detail/dds_fastrtps\n'}
+[9.563345] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg/detail/person__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.565076] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[9.565994] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/lib/libperson_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[9.568795] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/include/person_msgs/person_msgs\n'}
+[9.570330] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg\n'}
+[9.571457] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg/detail\n'}
+[9.573047] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg/detail/person__type_support.cpp\n'}
+[9.573931] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg/detail/person__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.575560] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/lib/libperson_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[9.576544] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/lib/libperson_msgs__rosidl_typesupport_cpp.so\n'}
+[9.578111] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/share/person_msgs/environment/pythonpath.sh\n'}
+[9.579008] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/share/person_msgs/environment/pythonpath.dsv\n'}
+[9.580410] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs-0.0.0-py3.10.egg-info\n'}
+[9.581879] (person_msgs) StdoutLine: {'line': b'-- Installing: /home/yamashita/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[9.584208] (person_msgs) StdoutLine: {'line': b'-- Installing: /home/yamashita/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[9.586078] (person_msgs) StdoutLine: {'line': b'-- Installing: /home/yamashita/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[9.587818] (person_msgs) StdoutLine: {'line': b'-- Installing: /home/yamashita/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[9.588700] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs\n'}
+[9.589551] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs/person_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[9.590353] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs/msg\n'}
+[9.591127] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs/msg/_person_s.c\n'}
+[9.591979] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs/msg/_person.py\n'}
+[9.592947] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs/msg/__init__.py\n'}
+[9.593826] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs/_person_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[9.594563] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs/libperson_msgs__rosidl_generator_py.so\n'}
+[9.595537] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs/person_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[9.596305] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs/person_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[9.597189] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs/_person_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[9.598240] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs/__init__.py\n'}
+[9.599699] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs/_person_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[9.619054] (-) TimerEvent: {}
+[9.721055] (-) TimerEvent: {}
+[9.823662] (-) TimerEvent: {}
+[9.890931] (person_msgs) StdoutLine: {'line': b"Listing '/home/yamashita/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs'...\n"}
+[9.892309] (person_msgs) StdoutLine: {'line': b"Listing '/home/yamashita/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs/msg'...\n"}
+[9.923961] (-) TimerEvent: {}
+[9.951371] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs/person_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[9.955855] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs/person_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[9.960384] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs/person_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[9.964671] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/lib/libperson_msgs__rosidl_generator_py.so\n'}
+[9.967224] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/share/person_msgs/msg/Person.idl\n'}
+[9.968637] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/share/person_msgs/msg/Person.msg\n'}
+[9.970049] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/share/ament_index/resource_index/package_run_dependencies/person_msgs\n'}
+[9.971623] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/share/ament_index/resource_index/parent_prefix_path/person_msgs\n'}
+[9.973638] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/share/person_msgs/environment/ament_prefix_path.sh\n'}
+[9.975208] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/share/person_msgs/environment/ament_prefix_path.dsv\n'}
+[9.976817] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/share/person_msgs/environment/path.sh\n'}
+[9.978091] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/share/person_msgs/environment/path.dsv\n'}
+[9.979728] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/share/person_msgs/local_setup.bash\n'}
+[9.980749] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/share/person_msgs/local_setup.sh\n'}
+[9.981770] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/share/person_msgs/local_setup.zsh\n'}
+[9.983205] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/share/person_msgs/local_setup.dsv\n'}
+[9.984548] (person_msgs) StdoutLine: {'line': b'-- Installing: /home/yamashita/ros2_ws/install/person_msgs/share/person_msgs/package.dsv\n'}
+[9.985944] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/share/ament_index/resource_index/packages/person_msgs\n'}
+[9.987074] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/share/person_msgs/cmake/export_person_msgs__rosidl_generator_cExport.cmake\n'}
+[9.988728] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/share/person_msgs/cmake/export_person_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[9.989810] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/share/person_msgs/cmake/export_person_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[9.991346] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/share/person_msgs/cmake/export_person_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[9.992836] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/share/person_msgs/cmake/person_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[9.994398] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/share/person_msgs/cmake/person_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[9.995775] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/share/person_msgs/cmake/person_msgs__rosidl_typesupport_cExport.cmake\n'}
+[9.997078] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/share/person_msgs/cmake/person_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[9.997905] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/share/person_msgs/cmake/export_person_msgs__rosidl_generator_cppExport.cmake\n'}
+[9.999331] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/share/person_msgs/cmake/export_person_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[10.000508] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/share/person_msgs/cmake/export_person_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[10.001811] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/share/person_msgs/cmake/person_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[10.003309] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/share/person_msgs/cmake/person_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[10.004546] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/share/person_msgs/cmake/person_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[10.005895] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/share/person_msgs/cmake/person_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[10.007410] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/share/person_msgs/cmake/export_person_msgs__rosidl_generator_pyExport.cmake\n'}
+[10.008878] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/share/person_msgs/cmake/export_person_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[10.010191] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/share/person_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[10.011733] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/share/person_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[10.013311] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/share/person_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[10.014813] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/share/person_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[10.016148] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/share/person_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[10.017677] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/share/person_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[10.019416] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/share/person_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[10.020500] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/share/person_msgs/cmake/person_msgsConfig.cmake\n'}
+[10.021632] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/share/person_msgs/cmake/person_msgsConfig-version.cmake\n'}
+[10.022653] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/ros2_ws/install/person_msgs/share/person_msgs/package.xml\n'}
+[10.024121] (-) TimerEvent: {}
+[10.034241] (person_msgs) CommandEnded: {'returncode': 0}
+[10.124782] (-) TimerEvent: {}
+[10.228595] (-) TimerEvent: {}
+[10.332975] (-) TimerEvent: {}
+[10.436357] (-) TimerEvent: {}
+[10.540721] (-) TimerEvent: {}
+[10.644824] (-) TimerEvent: {}
+[10.749361] (-) TimerEvent: {}
+[10.852666] (-) TimerEvent: {}
+[10.956394] (-) TimerEvent: {}
+[11.058994] (-) TimerEvent: {}
+[11.161307] (-) TimerEvent: {}
+[11.262560] (-) TimerEvent: {}
+[11.363992] (-) TimerEvent: {}
+[11.465284] (-) TimerEvent: {}
+[11.568363] (-) TimerEvent: {}
+[11.669700] (-) TimerEvent: {}
+[11.688265] (mypkg) StdoutLine: {'line': b'running egg_info\n'}
+[11.693611] (mypkg) StdoutLine: {'line': b'writing ../../build/mypkg/mypkg.egg-info/PKG-INFO\n'}
+[11.695778] (mypkg) StdoutLine: {'line': b'writing dependency_links to ../../build/mypkg/mypkg.egg-info/dependency_links.txt\n'}
+[11.698127] (mypkg) StdoutLine: {'line': b'writing entry points to ../../build/mypkg/mypkg.egg-info/entry_points.txt\n'}
+[11.699827] (mypkg) StdoutLine: {'line': b'writing requirements to ../../build/mypkg/mypkg.egg-info/requires.txt\n'}
+[11.703037] (mypkg) StdoutLine: {'line': b'writing top-level names to ../../build/mypkg/mypkg.egg-info/top_level.txt\n'}
+[11.718055] (mypkg) StdoutLine: {'line': b"reading manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'\n"}
+[11.725762] (mypkg) StdoutLine: {'line': b"writing manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'\n"}
+[11.727489] (mypkg) StdoutLine: {'line': b'running build\n'}
+[11.729986] (mypkg) StdoutLine: {'line': b'running build_py\n'}
+[11.732243] (mypkg) StdoutLine: {'line': b'copying mypkg/listener.py -> /home/yamashita/ros2_ws/build/mypkg/build/lib/mypkg\n'}
+[11.734654] (mypkg) StdoutLine: {'line': b'copying mypkg/talker.py -> /home/yamashita/ros2_ws/build/mypkg/build/lib/mypkg\n'}
+[11.736823] (mypkg) StdoutLine: {'line': b'running install\n'}
+[11.739470] (mypkg) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[11.741469] (mypkg) StderrLine: {'line': b'  warnings.warn(\n'}
+[11.743516] (mypkg) StdoutLine: {'line': b'running install_lib\n'}
+[11.745823] (mypkg) StdoutLine: {'line': b'copying /home/yamashita/ros2_ws/build/mypkg/build/lib/mypkg/listener.py -> /home/yamashita/ros2_ws/install/mypkg/lib/python3.10/site-packages/mypkg\n'}
+[11.748245] (mypkg) StdoutLine: {'line': b'copying /home/yamashita/ros2_ws/build/mypkg/build/lib/mypkg/talker.py -> /home/yamashita/ros2_ws/install/mypkg/lib/python3.10/site-packages/mypkg\n'}
+[11.752233] (mypkg) StdoutLine: {'line': b'byte-compiling /home/yamashita/ros2_ws/install/mypkg/lib/python3.10/site-packages/mypkg/listener.py to listener.cpython-310.pyc\n'}
+[11.756185] (mypkg) StdoutLine: {'line': b'byte-compiling /home/yamashita/ros2_ws/install/mypkg/lib/python3.10/site-packages/mypkg/talker.py to talker.cpython-310.pyc\n'}
+[11.759886] (mypkg) StdoutLine: {'line': b'running install_data\n'}
+[11.765250] (mypkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[11.770901] (-) TimerEvent: {}
+[11.781346] (mypkg) StdoutLine: {'line': b"removing '/home/yamashita/ros2_ws/install/mypkg/lib/python3.10/site-packages/mypkg-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[11.784295] (mypkg) StdoutLine: {'line': b'Copying ../../build/mypkg/mypkg.egg-info to /home/yamashita/ros2_ws/install/mypkg/lib/python3.10/site-packages/mypkg-0.0.0-py3.10.egg-info\n'}
+[11.796106] (mypkg) StdoutLine: {'line': b'running install_scripts\n'}
+[11.871248] (-) TimerEvent: {}
+[11.974515] (-) TimerEvent: {}
+[11.976742] (mypkg) StdoutLine: {'line': b'Installing listener script to /home/yamashita/ros2_ws/install/mypkg/lib/mypkg\n'}
+[11.978214] (mypkg) StdoutLine: {'line': b'Installing talker script to /home/yamashita/ros2_ws/install/mypkg/lib/mypkg\n'}
+[11.981765] (mypkg) StdoutLine: {'line': b"writing list of installed files to '/home/yamashita/ros2_ws/build/mypkg/install.log'\n"}
+[12.074896] (-) TimerEvent: {}
+[12.178658] (-) TimerEvent: {}
+[12.280373] (-) TimerEvent: {}
+[12.382555] (-) TimerEvent: {}
+[12.485141] (-) TimerEvent: {}
+[12.586987] (person_msgs) JobEnded: {'identifier': 'person_msgs', 'rc': 0}
+[12.594184] (-) TimerEvent: {}
+[12.595133] (mypkg) CommandEnded: {'returncode': 0}
+[12.695608] (-) TimerEvent: {}
+[12.797099] (-) TimerEvent: {}
+[12.900371] (-) TimerEvent: {}
+[13.003290] (-) TimerEvent: {}
+[13.104528] (-) TimerEvent: {}
+[13.110805] (mypkg) JobEnded: {'identifier': 'mypkg', 'rc': 0}
+[13.117048] (-) EventReactorShutdown: {}
